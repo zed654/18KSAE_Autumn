@@ -1,0 +1,20 @@
+yolo_model:
+
+  config_file:
+    name: yolov3_tiny_TSR.cfg
+  weight_file:
+    name: yolo-v3-tiny-obj-train_118832.weights
+  threshold:
+    value: 0.6
+  detection_classes:
+    names:
+      - TR_3_R
+      - TR_3_Y
+      - TR_3_G
+      - TR_3_L
+      - TR_4_R
+      - TR_4_Y
+      - TR_4_G
+      - TR_4_LG
+      - TR_4_R_L
+      - TR_4_RY

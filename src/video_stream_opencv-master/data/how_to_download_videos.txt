@@ -1,0 +1,14 @@
+cd catkin_workspace/src/src/video_stream_opencv-master/data/
+
+Ochang_75to15m_counterlight:
+  curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=1wPGjNBQ4loz1CzoO8hRoqlaJbdu17k04" > /dev/null
+  curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=1wPGjNBQ4loz1CzoO8hRoqlaJbdu17k04" -o Ochang_75to15m_counterlight.avi
+
+Ochang_85to15m:
+  curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=1qLcVps0uUeDLy38e_nvR_yaus_BaYZmF" > /dev/null
+  curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=1qLcVps0uUeDLy38e_nvR_yaus_BaYZmF" -o Ochang_85to15m.avi
+
+RealRoad:
+  curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=1Xu_zlEWp_f9wD_X7xjXzpxQPUu0pWmyH" > /dev/null
+  curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=1Xu_zlEWp_f9wD_X7xjXzpxQPUu0pWmyH" -o RealRoad.avi
+

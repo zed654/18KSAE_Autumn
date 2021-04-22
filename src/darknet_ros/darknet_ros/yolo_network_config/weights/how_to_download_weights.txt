@@ -1,0 +1,12 @@
+cd catkin_workspace/src/darknet_ros/darknet_ros/yolo_network_config/weights/
+
+Yolo v3 TRL weights:
+  curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=1yr4eTsBev90FvduHE_ibYhC2fiEsC6nU" > /dev/null
+  curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=1yr4eTsBev90FvduHE_ibYhC2fiEsC6nU" -o yolo-v3-obj-train_90048.weights
+
+Yolo tiny v3 TRL weights:
+  curl -c ./cookie -s -L "https://drive.google.com/uc?export=download&id=1ZZ7eVXkujWbAbYgRHbsVgFtdecTlhJRd" > /dev/null
+  curl -Lb ./cookie "https://drive.google.com/uc?export=download&confirm=`awk '/download/ {print $NF}' ./cookie`&id=1ZZ7eVXkujWbAbYgRHbsVgFtdecTlhJRd" -o yolo-v3-tiny-obj-train_151424.weights
+
+
+

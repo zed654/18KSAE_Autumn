@@ -1,0 +1,2 @@
+point_grey
+-DCATKIN_DEVEL_PREFIX=/home/chp/point_grey_ros/devel -DCMAKE_INSTALL_PREFIX=/home/chp/point_grey_ros/install -G Unix Makefiles

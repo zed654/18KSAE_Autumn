@@ -1,0 +1,8 @@
+prefix=/home/leeyj/backup/SANS_PARSER/serial/ttt
+
+Name: serial
+Description: Description of serial
+Version: 1.2.1
+Cflags: -I/home/leeyj/backup/SANS_PARSER/serial/ttt/include
+Libs: -L/home/leeyj/backup/SANS_PARSER/serial/ttt/lib -lserial
+Requires: 
